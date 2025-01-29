@@ -1,3 +1,11 @@
+✨ **Desafio da Plataforma DIO.me** ✨
+
+📌 **Ferramentas Utilizadas:**
+- 🌐 **HTML**
+- 🎨 **CSS**  
+
+https://yan-dmc.github.io/dio.CSS_LabProject.5/
+
 <img src="assets/images/readme-images/cover.png">
 
 <h1 align="center">Site HBO Max</h1>
