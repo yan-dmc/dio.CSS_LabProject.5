@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Raleway, sans-serif;
+}
+
+:root {
+    --home-bg-anim-step1: linear-gradient(
+        -45deg, 
+        rgb(86, 18, 91), 
+        rgb(15, 15, 16), 
+        rgb(39, 30, 110)) 
+        0% 0% / 400% 400%;
+    --home-bg-anim-step2: linear-gradient(
+        -45deg, 
+        rgb(86, 18, 91), 
+        rgb(15, 15, 16), 
+        rgb(39, 30, 110)) 
+        100% 100% / 400% 400%;
+
+    --primary-color: #020228;
+    --secondary-color: #ff00e5;
+    --tertiary-color: #b535f6;
+    --btn-bg-color-gradient: linear-gradient(
+      45deg,
+      #9b34ef 0%,
+      #490cb0 20%,
+      transparent 50%
+    );
+    --btn-link-bg-color: #fff;
+    --btn-link-color: #000;
+    --card-bg-color: linear-gradient(0deg, transparent, #3b1e63);
+    --divider-bg-color: linear-gradient(
+      90deg,
+      #5516ba,
+      #ff00e580 80%
+    );
+    --nav-bg-color: rgba(0, 0, 0, 0.3);
+    --text-color: #fff;
+    --link-color: #9e86ff;
+    --form-bg-color: rgba(211, 211, 211, 0.06);
+    --form-field-bg-color: rgba(0, 0, 0, 0.2);
+    --form-field-border: 1px solid rgba(255, 255, 255, 0.7);
+    --form-field-placeholder: rgba(255, 255, 255, 0.7);
+    --form-field-error: rgb(255, 76, 76);
+
+    scroll-behavior: smooth;
+}
+
+/* Custom Scroll */
+
+::-webkit-scrollbar {
+width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+background: var(--tertiary-color);
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: var(--secondary-color);
+}
